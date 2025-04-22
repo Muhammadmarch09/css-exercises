@@ -2,3 +2,10 @@
   font-family: Helvetica, "Times New Roman" sans-serif;
   font-size: 28px;
 }
+.click-me-btn{
+    background-color: black;
+    color: white;
+}
+.noclick-me-btn{
+    background-color: yellow;
+}
