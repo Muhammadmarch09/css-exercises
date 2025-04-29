@@ -10,7 +10,9 @@
   align-items: center;
 }
 .left-links,.right-links{
-  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: auto;
 }
 .left-links{
   display: flex;

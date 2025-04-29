@@ -12,6 +12,22 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* Applying display flex  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.left-section{
+  display: flex;
+}
+.left-section ul{
+  display: flex;
+  gap: 16px;
+}
+.right-section{
+  display: flex;
+  gap: 16px;
 }
 
 .profile-image {
