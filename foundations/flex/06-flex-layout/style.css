@@ -5,22 +5,59 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  padding: 0;
 }
-
 img {
   width: 600px;
 }
-
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
 }
-
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+/* Solutions  */
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 16px;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+.footer{
+  background-color: #eeeeee;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+button{
+  padding: 8px 12px;
 }
