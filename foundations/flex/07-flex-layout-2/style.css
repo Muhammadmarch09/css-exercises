@@ -27,3 +27,26 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* Solutions  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+}
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
