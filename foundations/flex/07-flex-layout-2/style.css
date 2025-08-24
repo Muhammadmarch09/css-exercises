@@ -50,3 +50,35 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+main{
+  display: flex;
+  flex: auto;
+}
+main .sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+main .sidebar ul{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+}
+main .sidebar ul li a{
+text-decoration: none;
+font-size: 24px;
+color: #fff;
+}
+
+main .card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding: 48px;
+}
+main .card-container .card{
+  width: 200px;
+  padding: 12px;
+  font-size: 14px;
+}
